@@ -113,7 +113,7 @@ main {
 
 .section_title {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     color: #181818;
     font-weight: 700;
     font-size: 35px;
@@ -175,4 +175,50 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+}
+
+/* summary section */
+.summary {
+    margin-top: 130px;
+}
+
+.summary_contain {
+    display: flex;
+    gap: 24px;
+}
+
+.summary_title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.summary_item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.summary .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.summary .sub_title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.summary .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+.summary_btn{
+    text-align: center;
+    margin-top: 50px;
 }
